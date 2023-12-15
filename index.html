@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my website</title>
+    <title>My website</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -15,19 +15,19 @@
     <header>
         <div class="logo"><span>M</span>iracle.</div>
         <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Porfolio">Porfolio</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#About" style="--i:2;">About</a></li>
+            <li><a href="#Services" style="--i:3;">Services</a></li>
+            <li><a href="#Skills" style="--i:4;">Skills</a></li>
+            <li><a href="#Porfolio" style="--i:5;">Porfolio</a></li>
+            <li><a href="#Contact" style="--i:6;">Contact</a></li>
         </ul>
         <div id="menu-icon" class="bx bx-menu"></div>
     </header>
     
-
+    <div class="mine">
     <section id="home" class="home">
-        <div class="home-content">
+        <div class="home-content ">
             <h1>Hi! I'm Monye miracle</h1>
             <div class="change-text">
                 <h3>And I'm</h3>
@@ -148,7 +148,7 @@
 
     <section id="about" class="about">
         <div class="img-about">
-            <img src="wick.png" alt="">
+            <img src="handsome-man-black-and-white-suit-643w0zqkuc6kohxx.jpeg" alt="">
             <div class="info-about1">
                 <span>10+</span>
                 <p>Months of Experience</p>
@@ -271,43 +271,172 @@
 
             </div>
             <div class="skill-right">
-                <h3>Proffessional Skills</h3>
-                <div class="professional">
-                <div class="box">
-                        <div class="circle" data-dots="80" data-persent="90"></div>
+                <h3>proffessional Skills</h3>
+                <div class="porfessional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
                         <div class="text">
-                            
+                            <big>90%</big>
                             <small>Team Work</small>
                         </div>
+                    </div>
 
-                        <div class="box">
-                            <div class="circle" data-dots="80" data-persent="90"></div>
-                            <div class="text">
-                                
-                                <small>Team Work</small>
-                            </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
 
-                            <div class="box">
-                                <div class="circle" data-dots="80" data-persent="90"></div>
-                                <div class="text">
-                                
-                                    <small>Team Work</small>
-                                </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
 
-                                <div class="box">
-                                    <div class="circle" data-dots="80" data-persent="90"></div>
-                                    <div class="text">
-                                        
-                                        <small>Team Work</small>
-                                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                
+                    </div>
+                </div>
+            </div>
             </div>
     </section>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="main-text">
+            <span>What i will do For you</span>
+            <h2>Latest project</h2>
+        </div>
+
+        <div class="container">
+            <div class="fillter-buttons">
+                <button class="button" data-filter="all">ALL</button>
+                <button class="button" data-filter=".product">Product</button>
+                <button class="button" data-filter=".inter">Interacting</button>
+                <button class="button" data-filter=".web">Web App</button>
+            </div>
+
+            <div class="portfolio-gallery">
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="image2.jpeg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, voluptatum 
+                            repellendus amet, reiciendis, tempore sunt dolore quaerat suscipit ratione 
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box">
+                    <div class="port-image mix product">
+                        <img src="646f38a92b99731c8c1d5f73_Why-is-coding-important-for-the-future-1.jpeg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, voluptatum 
+                            repellendus amet, reiciendis, tempore sunt dolore quaerat suscipit ratione 
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="maxresdefault.jpeg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, voluptatum 
+                            repellendus amet, reiciendis, tempore sunt dolore quaerat suscipit ratione 
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="rear-view-programmer-working-all-night-long-scaled.jpeg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, voluptatum 
+                            repellendus amet, reiciendis, tempore sunt dolore quaerat suscipit ratione 
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="1_F9AQf2743j686T-wZiwElw.jpeg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, voluptatum 
+                            repellendus amet, reiciendis, tempore sunt dolore quaerat suscipit ratione 
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="programming-background-with-person-working-with-codes-computer.jpeg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, voluptatum 
+                            repellendus amet, reiciendis, tempore sunt dolore quaerat suscipit ratione 
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contant">
+        <div class="main-text">
+            <span>ask me question</span>
+            <h2>Contact Me</h2>
+
+            <form action="#">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Address">
+                <input type="number" placeholder="Phone Number">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <div class="btn-box formBtn">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2023 by parsCoder || Right Reserved.</p>
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
